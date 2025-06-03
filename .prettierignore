@@ -1,0 +1,7 @@
+# Ignorar la carpeta dist
+dist/
+
+# Ignorar build
+build/
+
+#la carpeta node_modules/ está ignorada por defecto en Prettier
