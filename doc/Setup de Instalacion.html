@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setup de Instalacion</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>Esta es una <strong>guía para la instalación de las herramientas</strong> que vamos a utilizar en este proyecto y sus dependencias. A continuación los pasos, cualquier duda o problema me lo pueden notificar.</p>
+<p><strong>❗Parte 1 - En esta parte realizaras las instalaciones de las herramientas básicas:</strong></p>
+<p>1️⃣ Primero descarga e instala Vscode desde un sitio web oficial (<a href="https://code.visualstudio.com/" title="https://code.visualstudio.com/">https://code.visualstudio.com/</a>).</p>
+<p>2️⃣Luego deberás instalar Node.js de igual forma, en su página oficial, en ella encontraras diferentes métodos relacionados con la instalación desde consola, no obstante más abajo puedes elegir instalar una versión copilada para tu versión de Windows. <strong>Ahora bien, si ya terminaste la instalación es recomendable revisar si Node.js ya instalo el gestor de paquetes NPM, normalmente al instalar node, este ya viene instalado por defecto, pero para revisar puedes hacer lo siguiente:</strong></p>
+<p>• Abre el Cmd de Windows (En el caso de que uses otro SO búscalo por internet), lo puedes abrir usando la combinación de teclas “<strong>Windows + R</strong>”, luego se abrirá la ventana de “<strong>Ejecutar</strong>”, en esa ventana escribirás “<strong>cmd</strong>” y luego le das a la tecla “<strong>Enter</strong>”.</p>
+<p>• En este momento tendrás la Consola abierta, aquí escribirás <code>node -v</code>, el terminal te dirá tu versión de node, y posteriormente escribirás <code>npm -v</code> para verificar si tienes instalado “<strong>npm</strong>”.</p>
+<p><strong>❗Ahora no cierres el CMD, lo necesitaras luego.</strong></p>
+<p>3️⃣ En el siguiente paso Instalaras Git de igual forma en su página oficial de descarga (<a href="https://git-scm.com/downloads" title="https://git-scm.com/downloads">https://git-scm.com/downloads</a>), descargaras el instalador y luego, en el apartado de “<strong>Choosing the default editor used by Git</strong>” seleccionaras “<strong>Use Visual Code as Git’s default editor</strong>”. Luego continúa con las opciones predeterminadas de la instalación.</p>
+<p>❗<strong>Parte 2 - Ya con todo esto tendrás Instalado todas las herramientas necesarias para trabajar, ahora vamos con la configuración de estas.</strong></p>
+<p>1️⃣ Como primer paso tendrás que crearte una cuenta de GitHub, y esto es importantísimo por lo que viene a continuación, no cierres la pestaña.</p>
+<p>2️⃣Ahora viene la configuración de Git, en el CMD de Windows, o en el bash de Git escribirás lo siguiente y presta atención, <code>git config –global user.name “Tu Nombre y Apellido”</code>, con este comando registraras tu nombre para los commit y ahora lo siguiente. Escribirás (Usando tu correo de GitHub) “<code>git config –global user.email “Correo Primario o Correo Privado”</code> ”</p>
+<p>‼️ Con respecto a los correos (Importante leer este parrafo) : en GitHub, le darás click la parte superior derecha de la pestaña, donde aparece tu logo, y se te abrirá un menú, aquí seleccionaras la opción “<strong>Setting</strong>”. Luego en las opciones del costado izquierdo buscaras “<strong>Access &gt; Emails</strong>” y seleccionaras esa opción. Aquí por defecto GitHub mantiene tu correo privado para los Push, puedes des enmarcar esta opción más abajo y utilizar tu correo con el que te registraste (El <strong>Correo Primario</strong>), o en el caso que no quieras, GitHub te da un correo especial (123456+ejemplo@ @users.noreply.github.com) que puedes usar como <strong>Correo Privado</strong>.</p>
+<p>Ahora para verificar que todo se guardo, puedes escribir <code>git config --list</code> donde las variables <code>user.name</code>, <code>user.email</code> y <code>core.editor</code> reflejen los datos que insertaste, este último tiene que ser tu Editor de Texto, en este caso Vscode.</p>
+<p>3️⃣Ahora las extensiones para Vscode y otras opcionales. Con el Vscode abierto, en el menú del lado izquierdo, seleccionaran la opción “<strong>Extensions</strong>”, también pueden usar <code>Ctrl + Shift + X</code> como atajo, y en esta sección es donde podrán seleccionar tus extensiones e instalarlas:</p>
+<p><strong>Obligatorias</strong>:</p>
+<ul>
+<li><strong>GitHub Pull Requests</strong>: Esta extensión te permitirá realizar lo<br>
+Pull Request desde el Vscode sin morir en el intento. Una vez<br>
+instalada tienes que vincular tu cuenta de GitHub en el icono<br>
+“Accounts” en la esquina inferior izquierda del Vscode y seleccionar<br>
+la opcion que hace referencia a GitHub.</li>
+</ul>
+<p><strong>Opcionales</strong>:</p>
+<ul>
+<li>
+<p><strong>Error Lens</strong>: sobresalta los errores y advertencias en tu código.</p>
+</li>
+<li>
+<p><strong>Live Server</strong>: crea un servidor local que sirve tus archivos de<br>
+proyecto. Esto te permite ver tu sitio web en un navegador sin<br>
+necesidad de subirlo a un servidor web real. <strong>Agregado el 02/06/25</strong></p>
+</li>
+<li>
+<p><strong>Live Server (Five Server)</strong>: de igual manera que el Live Server,<br>
+crea un servidor web local, pero este actualiza en tiempo real cuando<br>
+se modifican documento CSS, y otras características nuevas(Leer<br>
+Docu). <strong>Agregado el 02/06/25</strong></p>
+</li>
+</ul>
+<p><strong>Ya con esto tienes el entorno listo para trabajar, algunas extensiones se agregaran con el tiempo de ser necesario</strong>.</p>
+</div>
+</body>
+
+</html>
